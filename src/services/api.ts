@@ -1,7 +1,7 @@
 import { tokenStorage, isTokenExpired } from '../utils/storage';
 import { ApiError } from '../types/api';
 
-const API_BASE_URL = 'https://techer.work.gd'; // Updated to production server
+const API_BASE_URL = 'https://ace2-105-113-65-49.ngrok-free.app'; // Updated to production server
 
 class ApiService {
   private baseURL: string;
